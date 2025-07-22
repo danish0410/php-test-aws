@@ -1,18 +1,18 @@
 variable "vpc_cidr" {
-  description = "CIDR block for php-test"
+  description = "CIDR block for nginx-test"
   type        = string
-  default     = "10.15.0.0/16"
+  default     = "10.16.0.0/16"
 }
 
-variable "vpc_php_name" {
+variable "vpc_name" {
   description = "Name tag for the VPC"
   type        = string
 }
 
 variable "sub_cidr" {
-  description = "CIDR block for php-test-subnet"
+  description = "CIDR block for nginx-test-subnet"
   type        = string
-  default     = "10.15.1.0/24"
+  default     = "10.16.1.0/24"
 }
 
 variable "availability_zone" {

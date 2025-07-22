@@ -1,4 +1,4 @@
-output "php_ec2_public_ip" {
-  value       = aws_instance.php_ec2.public_ip
-  description = "Public IP of the PHP EC2 instance"
+output "nginx_ec2_public_ip" {
+  value       = aws_instance.nginx_ec2.public_ip
+  description = "Public IP of the nginx EC2 instance"
 }

@@ -1,4 +1,4 @@
-vpc_php_name = "php-test-vpc"
-sub_name     = "php-test-subnet"
-key_name     = "id_rsa"
-ec2_name     = "php-test-ec2"
+vpc_name = "nginx-test"
+sub_name = "nginx-test-subnet"
+key_name = "id_rsa"
+ec2_name = "nginx-test-ec2"
